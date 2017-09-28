@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
-	<title>jQuery BeforeAfter Plugin Demo for Sandwich Town Neck Beach</title>
+	<title>Standing water in backyard at Sodus Point, NY</title>
 <style type="text/css">
 #container {
 	margin-left:auto;
@@ -28,8 +28,8 @@ $(function(){
 		introDuration : 600,
 		introPosition : .20,
 		showFullLinks : true,
-		beforeLinkText: 'Show January image',
-		afterLinkText: 'Show February image',
+		beforeLinkText: 'Show digital elevation model',
+		afterLinkText: 'Show orthophoto mosaic',
 		cursor: 'e-resize',
 		enableKeyboard: true,
 		dividerColor: '#070'
@@ -40,18 +40,21 @@ $(function(){
 </head>
 <body>
 <div id="content">
-	<h1>Northwest end of Sandwich Town Neck Beach</h1>
+	<h1>Parking lot and docks at Sodus Point, New York, July 13, 2017</h1>
 	    <div id="intro">
-			<p>These images are orthophoto mosiacs made from unmanned aerial systems flown on January 22, 2016 (immediately after the
-			beach nourishment program was completed) and February 11, 2016 (after two moderate nor'easters).			</p>
-            <p>The jQuery BeforeAfter plugin allows you to take two images and merge them so
-that a visitor can drag a slider over them to visually compare them.</p>
+			<p>These overlaid images are a digital elevation model and an orthophoto mosiac made from photos taken
+			from an unmanned aerial system (drone) flown on July 13, 2017.
+			They show standing water and sandbags in the parking lot next to the Sodus Point ballfield and flooded docks in Sodus Bay.
+			The high water tables were caused by record-high water levels in Lake Ontario. The bumpy look of open water in the elevation model
+			is an artifact of the photogrammetry process,
+			which expects objects to be stationary in the photos. Instead, small waves were present.</p>
+            <p>These images were collected by the U.S. Geological Survey with support from FEMA and the New York State Departments of State and Conservation.</p>
 		</div>
 
-		<p>Grab and drag the handle to compare images.</p>
+		<p>Grab and drag the green handle to compare images.</p>
 		<div id="container0">
-            <div><img alt="before" src="./images/Sandwich_2016-01-22.jpg" width="960" height="476" /></div>
-            <div><img alt="after" src="./images/Sandwich_2016-02-11.jpg" width="960" height="476" /></div>
+            <div><img alt="before" src="./images/standing_water2_DEM.jpg" width="996" height="615" /></div>
+            <div><img alt="after" src="./images/standing_water2_ORTHO.jpg" width="996" height="615" /></div>
 		</div>
 
 </div>
@@ -59,7 +62,8 @@ that a visitor can drag a slider over them to visually compare them.</p>
 <p>
 <div id="footer">
 <h4> Acknowledgements</h4>
-<p>Thanks to the Town of Sandwich for supporting our research at Town Neck Beach, and to Peter Traykovski (WHOI) for UAS images.</p>
+<p>Thanks to the folks of Sodus Point for help with data collection, and for support from FEMA and the NY Departments of State and Conservation.
+</p>
 <p>
 Thanks to the jQuery beforeAfter plugin: <a href="http://www.catchmyfame.com/2009/06/25/jquery-beforeafter-plugin/">www.catchmyfame.com/2009/06/25/jquery-beforeafter-plugin/
 </p>

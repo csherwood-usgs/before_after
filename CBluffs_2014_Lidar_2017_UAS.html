@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<title>Chimney Bluff State Park, NY</title>
+<style type="text/css">
+#container {
+	margin-left:auto;
+	margin-right:auto;
+}
+#content {
+	margin:0 auto;
+	width:755px;
+}
+</style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./jquery/beforeafter/js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="./jquery/beforeafter/js/jquery-ui-1.8.13.custom.min.js"></script>
+<script type="text/javascript" src="./jquery/beforeafter/js/jquery.beforeafter-1.4.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#container0').beforeAfter({
+		animateIntro:true,
+		imagePath:'./jquery/beforeafter/js/',
+		introDuration : 600,
+		introPosition : .20,
+		showFullLinks : true,
+		beforeLinkText: 'Show 2014 LiDAR',
+		afterLinkText: 'Show 2017 UAS DEM',
+		cursor: 'e-resize',
+		enableKeyboard: true,
+		dividerColor: '#070'
+	});
+
+});
+</script>
+</head>
+<body>
+<div id="content">
+	<h1>Chimney Bluffs State Park, New York, July 14, 2017</h1>
+	    <div id="intro">
+			<p>These overlaid images are airborne LiDAR data collected in 2014 and a digital elevation model
+			made from photos taken
+			from an unmanned aerial system (drone) flown on July 14, 2017.</p>
+            <p>The 2017 data were collected by the U.S. Geological Survey with support from FEMA and the New York State Departments of State and Conservation.</p>
+		</div>
+
+		<p>Grab and drag the green handle to compare images.</p>
+		<div id="container0">
+            <div><img alt="2014 LiDAR" src="./images/2014.jpg" width="838" height="436" /></div>
+            <div><img alt="2017 UAS DEM" src="./images/2017.jpg" width="838" height="436" /></div>
+		</div>
+
+</div>
+<hr>
+<p>
+<div id="footer">
+<h4> Acknowledgements</h4>
+<p>Supported by FEMA, the New York State Departments of State and Conservation, and the U.S. Geological Survey Coastal
+and Marine Geology Program..
+</p>
+<p>
+Thanks to the jQuery beforeAfter plugin: <a href="http://www.catchmyfame.com/2009/06/25/jquery-beforeafter-plugin/">www.catchmyfame.com/2009/06/25/jquery-beforeafter-plugin/
+</p>
+</a>
+
+</div>
+
+</body>
+</html>
